@@ -1,0 +1,85 @@
+Starting benews server on port 8080
+arg passed for batch file batch.txt
+New connection from 127.0.0.1:48172
+message is long 57
+adding new client 358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:48175
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-2'}
+Failed to Execute payload/digest.jpg.z
+Failed to Send payload/digest.jpg.z
+is_ts_valid:No more trials
+closing socket
+New connection from 127.0.0.1:48176
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48183
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48186
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48187
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48192
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48196
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48197
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48201
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48203
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48206
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48209
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:48212
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket

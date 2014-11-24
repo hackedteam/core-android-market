@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeNews</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_refresh_text">Refresh</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_space">news place holder</string>
+    <string name="dateFormat">11/11/1111 11:11</string>
+
+</resources>

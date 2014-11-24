@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".BeNews"
+             tools:ignore="MergeRootFrame" >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_gravity="left|top">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="#ff5336ff"
+            android:baselineAligned="false">
+            <TextView
+                android:id="@+id/linkStatus"
+                android:text="Link OK"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="2dp"
+                android:gravity="center_vertical"
+                android:width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@+id/linearLayout2"
+            android:id="@+id/content_placeholder">
+            <!--
+            <fragment
+                android:id="@+id/mainFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="org.benews.BeNewsFragList"
+                />-->
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+            <Button
+                android:id="@+id/bt_refresh"
+                android:text="@string/bt_refresh_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|left"
+                />
+            <TextView
+                android:id="@+id/lastUpdate"
+                android:text="Link OK"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical|right"
+                android:layout_weight="1"
+                android:width="0dp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

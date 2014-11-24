@@ -1,0 +1,690 @@
+Starting benews server on port 8080
+arg passed for batch file batch.txt
+New connection from 127.0.0.1:49874
+message is long 57
+adding new client 358240051714418
+read: {u'imei': u'358240051714418', u'ts': 0, u'lts_status': u'0'}
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+skipping comment
+Invalid filepath field not present or file not available
+sending file img/human.jpg
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:49887
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1382952976, u'lts_status': u'0'}
+Correctly Sent img/human.jpg
+sending file payload/xig.jpg.z
+ready to send another news
+image is valid
+reset trials for file payload/xig.jpg.z
+frag=[1/8] frag=7
+closing socket
+New connection from 127.0.0.1:49888
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[2/8] frag=6
+closing socket
+New connection from 127.0.0.1:49889
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[3/8] frag=5
+closing socket
+New connection from 127.0.0.1:49890
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[4/8] frag=4
+closing socket
+New connection from 127.0.0.1:49891
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[5/8] frag=3
+closing socket
+New connection from 127.0.0.1:49892
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[6/8] frag=2
+closing socket
+New connection from 127.0.0.1:49893
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[7/8] frag=1
+closing socket
+New connection from 127.0.0.1:49894
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+frag=[8/8] frag=0
+closing socket
+New connection from 127.0.0.1:49895
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+Correctly Sent payload/xig.jpg.z
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:49896
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+Executed payload/digest.jpg.z
+closing socket
+New connection from 127.0.0.1:49897
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:49899
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:49922
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 0, u'lts_status': u'0'}
+sending file img/human.jpg
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:49924
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1382952976, u'lts_status': u'0'}
+Correctly Sent img/human.jpg
+sending file payload/xig.jpg.z
+ready to send another news
+image is valid
+reset trials for file payload/xig.jpg.z
+frag=[1/8] frag=7
+closing socket
+New connection from 127.0.0.1:49925
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[2/8] frag=6
+closing socket
+New connection from 127.0.0.1:49928
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[3/8] frag=5
+closing socket
+New connection from 127.0.0.1:49929
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[4/8] frag=4
+closing socket
+New connection from 127.0.0.1:49930
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[5/8] frag=3
+closing socket
+New connection from 127.0.0.1:49931
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[6/8] frag=2
+closing socket
+New connection from 127.0.0.1:49932
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[7/8] frag=1
+closing socket
+New connection from 127.0.0.1:49935
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+frag=[8/8] frag=0
+closing socket
+New connection from 127.0.0.1:49937
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+Correctly Sent payload/xig.jpg.z
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:49938
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+Executed payload/digest.jpg.z
+closing socket
+New connection from 127.0.0.1:49939
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:49944
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50385
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 0, u'lts_status': u'0'}
+sending file img/human.jpg
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50405
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1382952976, u'lts_status': u'0'}
+Correctly Sent img/human.jpg
+sending file payload/xig.jpg.z
+ready to send another news
+image is valid
+reset trials for file payload/xig.jpg.z
+frag=[1/8] frag=7
+closing socket
+New connection from 127.0.0.1:50408
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[2/8] frag=6
+closing socket
+New connection from 127.0.0.1:50409
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[3/8] frag=5
+closing socket
+New connection from 127.0.0.1:50410
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[4/8] frag=4
+closing socket
+New connection from 127.0.0.1:50411
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[5/8] frag=3
+closing socket
+New connection from 127.0.0.1:50412
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[6/8] frag=2
+closing socket
+New connection from 127.0.0.1:50413
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[7/8] frag=1
+closing socket
+New connection from 127.0.0.1:50414
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+frag=[8/8] frag=0
+closing socket
+New connection from 127.0.0.1:50415
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+Correctly Sent payload/xig.jpg.z
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50416
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+Executed payload/digest.jpg.z
+closing socket
+New connection from 127.0.0.1:50417
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50421
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50424
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50426
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50442
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50446
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50448
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50451
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50452
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50456
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50474
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50502
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50510
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50512
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50516
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50520
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50521
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50538
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50541
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50547
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50566
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50569
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50595
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50597
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50608
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50613
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50615
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50617
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50620
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50634
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50639
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50642
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50650
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50652
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50655
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50662
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50663
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50674
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50676
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50686
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 0, u'lts_status': u'0'}
+sending file img/human.jpg
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50687
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1382952976, u'lts_status': u'0'}
+Correctly Sent img/human.jpg
+sending file payload/xig.jpg.z
+ready to send another news
+image is valid
+reset trials for file payload/xig.jpg.z
+frag=[1/8] frag=7
+closing socket
+New connection from 127.0.0.1:50688
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[2/8] frag=6
+closing socket
+New connection from 127.0.0.1:50689
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[3/8] frag=5
+closing socket
+New connection from 127.0.0.1:50690
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[4/8] frag=4
+closing socket
+New connection from 127.0.0.1:50692
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[5/8] frag=3
+closing socket
+New connection from 127.0.0.1:50701
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[6/8] frag=2
+closing socket
+New connection from 127.0.0.1:50702
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[7/8] frag=1
+closing socket
+New connection from 127.0.0.1:50703
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+frag=[8/8] frag=0
+closing socket
+New connection from 127.0.0.1:50706
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+Correctly Sent payload/xig.jpg.z
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50707
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+Executed payload/digest.jpg.z
+closing socket
+New connection from 127.0.0.1:50708
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50892
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50894
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50909
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 0, u'lts_status': u'0'}
+sending file img/human.jpg
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50910
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1382952976, u'lts_status': u'0'}
+Correctly Sent img/human.jpg
+sending file payload/xig.jpg.z
+ready to send another news
+image is valid
+reset trials for file payload/xig.jpg.z
+frag=[1/8] frag=7
+closing socket
+New connection from 127.0.0.1:50913
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[2/8] frag=6
+closing socket
+New connection from 127.0.0.1:50914
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[3/8] frag=5
+closing socket
+New connection from 127.0.0.1:50915
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[4/8] frag=4
+closing socket
+New connection from 127.0.0.1:50916
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[5/8] frag=3
+closing socket
+New connection from 127.0.0.1:50917
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[6/8] frag=2
+closing socket
+New connection from 127.0.0.1:50918
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+reset trials for file payload/xig.jpg.z
+frag=[7/8] frag=1
+closing socket
+New connection from 127.0.0.1:50920
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+frag=[8/8] frag=0
+closing socket
+New connection from 127.0.0.1:50921
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1384212176, u'lts_status': u'0'}
+Correctly Sent payload/xig.jpg.z
+sending file payload/digest.jpg.z
+ready to send another news
+image is valid
+frag=[1/1] frag=0
+closing socket
+New connection from 127.0.0.1:50922
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+Executed payload/digest.jpg.z
+closing socket
+New connection from 127.0.0.1:50923
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50929
+message is long 58
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'-1'}
+closing socket
+New connection from 127.0.0.1:50937
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50939
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50941
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket
+New connection from 127.0.0.1:50956
+message is long 57
+client already present358240051714418
+read: {u'imei': u'358240051714418', u'ts': 1385212176, u'lts_status': u'0'}
+closing socket

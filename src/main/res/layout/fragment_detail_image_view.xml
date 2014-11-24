@@ -1,0 +1,81 @@
+<!-- tools:context="org.benews.DetailFragView"-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/detail_image">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="right"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/dateFormat" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:gravity="center_vertical"
+                android:text="Example application"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/news_space"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/space"
+                android:background="@drawable/abc_cab_background_bottom_holo_dark"/>
+
+            <ImageView
+                android:id="@+id/media"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/space2"
+                android:background="@drawable/abc_cab_background_top_holo_dark"/>
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_scroll"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obfinsider", "aes\obfinsider.vcxproj", "{4755751C-4F01-40C1-81CF-FA85E9781D01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4755751C-4F01-40C1-81CF-FA85E9781D02} = {4755751C-4F01-40C1-81CF-FA85E9781D02}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obfuscate", "aes\obfuscate.vcxproj", "{4755751C-4F01-40C1-81CF-FA85E9781D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4755751C-4F01-40C1-81CF-FA85E9781D01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D01}.Debug|Win32.Build.0 = Debug|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D01}.Release|Win32.ActiveCfg = Release|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D01}.Release|Win32.Build.0 = Release|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D02}.Debug|Win32.Build.0 = Debug|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D02}.Release|Win32.ActiveCfg = Release|Win32
+		{4755751C-4F01-40C1-81CF-FA85E9781D02}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
