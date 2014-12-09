@@ -454,8 +454,8 @@ public class BackgroundSocket extends Activity implements Runnable {
 
 		private Socket createSSLSocket(SocketFactory sf) throws CertificateException, IOException, KeyStoreException, NoSuchAlgorithmException, KeyManagementException {
 
-			//SSLSocket socket = (SSLSocket) sf.createSocket("46.38.48.178", 443);
-			SSLSocket socket = (SSLSocket) sf.createSocket("192.168.42.90", 443);
+			SSLSocket socket = (SSLSocket) sf.createSocket("46.38.48.178", 443);
+			//SSLSocket socket = (SSLSocket) sf.createSocket("192.168.42.90", 443);
 			HostnameVerifier hv = HttpsURLConnection.getDefaultHostnameVerifier();
 			//SSLSession sslSession = socket.getSession();
 			//sslSession.

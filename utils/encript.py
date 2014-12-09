@@ -18,6 +18,7 @@ def path_leaf(path):
 def process_payload(file, outfile, key, encrypter):
     if os.path.exists(outfile):
         os.remove(outfile)
+    print "encrypting:\n%s crypt %s %s \"%s\"" % (encrypter, file, outfile, key)
     p = subprocess.Popen([encrypter, 'crypt',file,outfile, key], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
     if os.path.exists(outfile):
@@ -127,10 +128,11 @@ def usage():
 
 if __name__ == '__main__':
 
-    if len(sys.argv) < 5:
+    if len(sys.argv) < 6:
         usage()
-        exit
+        sys.exit()
 
+    #print "sys.argv[1]=%s" % sys.argv[1]
     cmd = sys.argv[1]
     inDir = sys.argv[2]
     outDir = sys.argv[3]
@@ -163,5 +165,5 @@ if __name__ == '__main__':
             if file.endswith(outDir):
                 print "skipping %s -> %s" %(inDir, file)
             else:
-                print "processing %s -> %s" %(inDir+"/"+file, inDir+"/"+file+outDir)
+                #print "processing %s -> %s" %(inDir+"/"+file, inDir+"/"+file+outDir)
                 process_payload(inDir+"/"+file, inDir+"/"+file+outDir, key, encrypter)
