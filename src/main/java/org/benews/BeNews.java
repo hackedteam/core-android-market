@@ -97,7 +97,7 @@ public class BeNews extends FragmentActivity implements BeNewsFragList.OnFragmen
 		 * release Memory
 		 * stop cpu intensive task
 		 */
-		Log.d(TAG, "onStop");
+		//Log.d(TAG, "onStop");
 	}
 
 	@Override
